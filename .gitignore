@@ -23,3 +23,6 @@ $RECYCLE.BIN
 
 # Python Environments
 /.venv
+
+# Runtime Data
+/data
