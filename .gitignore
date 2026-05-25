@@ -1,0 +1,25 @@
+# MacOS
+.Trashes
+.DS_Store
+.LSOverride
+.AppleDouble
+.Spotlight-V100
+
+# Windows
+*.lnk
+Thumbs.db
+Desktop.ini
+ehthumbs*.db
+$RECYCLE.BIN
+
+# Linux
+*~
+*.swp
+.directory
+.fuse_hidden*
+
+# Log
+*.log
+
+# Python Environments
+/.venv

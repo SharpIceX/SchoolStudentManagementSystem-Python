@@ -1,0 +1,25 @@
+line-length = 120
+target-version = "py314"
+select = ["ALL"]
+ignore = [
+	"I",
+	"D",
+	"W191",
+	"Q000",
+	"T201",
+	"TC003",
+	"COM812",
+	"ISC001",
+	"CPY001",
+	"RUF001",
+	"RUF002",
+	"RUF003",
+]
+
+[isort]
+combine-as-imports = true
+
+[format]
+indent-style = "tab"
+quote-style = "single"
+skip-magic-trailing-comma = false

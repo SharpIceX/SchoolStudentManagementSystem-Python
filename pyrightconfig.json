@@ -1,0 +1,20 @@
+{
+	"venvPath": ".",
+	"venv": ".venv",
+	"typeCheckingMode": "strict",
+	"extendedAnalysisMode": "basic",
+	"reportUnnecessaryCast": "error",
+	"reportUnusedExpression": "error",
+	"reportImplicitOverride": "error",
+	"reportUnknownLambdaType": "error",
+	"reportUnknownMemberType": "error",
+	"reportUncheckedIndexedAccess": true,
+	"reportUnknownArgumentType": "error",
+	"reportUnknownVariableType": "error",
+	"reportMissingParameterType": "error",
+	"reportUnnecessaryIsInstance": "error",
+	"reportUnnecessaryComparison": "error",
+
+	"include": ["./src"],
+	"exclude": ["**/__pycache__", ".venv", "**/node_modules", "**/.*"]
+}
